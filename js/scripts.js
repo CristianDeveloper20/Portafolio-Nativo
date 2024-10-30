@@ -17,8 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const portfolioItem = document.createElement('div');
         portfolioItem.classList.add('portfolio-item');
 
-        portfolioItem.innerHTML = `
-            <img src="${portfolio.image}" alt="${portfolio.name}">
+        portfolioItem.innerHTML = `            
             <h2>${portfolio.name}</h2>
             <p>${portfolio.description}</p>
         `;
